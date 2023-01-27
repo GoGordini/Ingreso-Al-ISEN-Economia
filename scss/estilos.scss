@@ -37,22 +37,26 @@
         color: $color_barra;
         margin-top: 1rem;
     }
+
     p {
         padding-top: 0.25rem;
         font-size: 0.75rem;
         text-align: right;
     }
+
     .btn {
         margin-left: 6px;
     }
 }
+
 .imagen {
     max-width: 80%;
-    height:auto;
+    height: auto;
     background-image: linear-gradient(to top, black 50%, transparent 90%);
     left: 0;
     top: 0;
 }
+
 /*.gradient {
     //position: absolute;
     //display: block;
@@ -159,23 +163,37 @@ ul li {
     list-style: square;
 }
 
-.card{
+.card {
     --bs-card-border-color: gray !important;
     --bs-card-bg: black !important;
 }
 
-.card-body{
-    color: white !important;
+.card-body {
+    color: $color_barra !important;
     text-align: center;
 }
 
-.card-title{
-    margin-top:0.5rem;
+.card-title {
+    margin-top: 0.5rem;
 }
-.card-text{
-    padding-top:0.5rem;
+
+.card-text {
+    padding-top: 0.5rem;
     font-weight: normal;
     padding-bottom: 0.5rem;
+}
+
+.popover-body {
+    background-color: rgb(223, 220, 220);
+    font-family: $tipo_de_letra !important;
+    font-size: 1rem !important;
+}
+
+.popover-header {
+    background-color: black !important;
+    color: $color_barra;
+    font-family: $tipo_de_letra !important;
+    transform: none !important;
 }
 
 form {
@@ -292,18 +310,21 @@ footer.btn {
         h1 {
             font-size: calc($tamano-h1*.4)
         }
+
         .btn {
             margin-top: 1rem;
             margin-bottom: 1.1rem;
             font-size: 1.1rem;
- 
+
         }
 
     }
+
     .imagen {
         max-width: 100%;
-        height:auto;}
-    
+        height: auto;
+    }
+
     h1,
     h2,
     h3 {
