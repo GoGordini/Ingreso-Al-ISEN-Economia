@@ -134,10 +134,6 @@ h3 {
   transform: skewX(0);
   transition: skweX 1s;
 }
-h2:hover,
-h3:hover {
-  transform: skewX(10deg);
-}
 
 p {
   padding: 4px;
@@ -291,10 +287,8 @@ footer.btn {
     max-width: 100%;
     height: auto;
   }
-  h1:hover,
-  h2:hover,
-  h3:hover {
-    transform: none;
+  h2 {
+    padding-top: 1rem;
   }
   .nav-link {
     font-size: 1.25rem !important;

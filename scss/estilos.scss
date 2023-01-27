@@ -143,9 +143,7 @@ h3 {
     transform: skewX(0);
     transition: skweX 1s;
 
-    &:hover {
-        transform: skewX(10deg)
-    }
+    
 }
 
 p {
@@ -325,13 +323,12 @@ footer.btn {
         height: auto;
     }
 
-    h1,
-    h2,
-    h3 {
-        &:hover {
-            transform: none;
-        }
+    
+    h2{
+        padding-top:1rem;
     }
+    
+        
 
     .nav-link {
         font-size: calc($tamano-h1 / 4) !important;
